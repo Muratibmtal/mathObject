@@ -38,36 +38,13 @@ public class Math {
 
 	public double areaOfRectangularPrism(double a,double b,double h){
 		double result;
-		result= a*b*h;
-		return result;		
-	}
-	public double calculatingTheAreaofaRightTriangle(double a, double b, double n1) {
-		double result;
-		result= a*b/2;
+}
 		return result;
-	}
-	public double intereiorAngleOfManyGenes (double n) {
-		double result;
-		result=(n-2)/n*180;
-		return result;
-	}
-	public int factoriyel(int f) {
-		int result=1;
-		for(int i=1;i<=f;i++) {
-			result=result*i;
-		}
-		return result;
-	}
-	public int sumofSmallNumbers(int a) {
-		int result=0;
-		for(int i=1;i<a;i++) {
-			result+=i;
-		}
-		return result;
-	}
+	} 
+       
 	public int sumofthenumbersBetween(int a, int b) {
-		int result=3,4;
-		for(int i=1;,<a,b;i--) {
+		int result=0;
+		for(int i=a+1;i<b;i++) {
 			result-=i;
 		}
 		return result;
