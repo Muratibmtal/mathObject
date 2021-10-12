@@ -11,7 +11,11 @@ public class Main {
         System.out.println(math.divide(15 , 3));
         System.out.println(math.getPi());
         // pi*r*r areaOfCircle
-        System.out.println(math.areaOfCircle(5));
+        System.out.println(math.areaOfRectangularPrism(3,5,6));
+        System.out.println(math.calculatingTheAreaofaRightTriangle(4, 5, 6));
+        System.out.println(math.factoriyel(5));
+        System.out.println(math.sumofSmallNumbers(6));
+        System.out.println(math.sumofNumbersBetween(3,4));
 	}
 
 }
